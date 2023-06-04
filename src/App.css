@@ -32,7 +32,22 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
+
+.field {
+  position: relative;
+}
+
+.sho {
+  position: absolute;
+  top: 51px;
+  right: 16px;
+  transform: translateY(-50%);
+  font-size: 1rem;
+  display: none;
+  cursor: pointer;
+} 
